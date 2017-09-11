@@ -26,6 +26,31 @@ SkyEngine은 UPPERCASE 모듈이기 때문에, 먼저 UPPERCASE가 설치되어 
 3. 프로젝트의 `DEPENDENCY` 파일에 `Hanul/SkyEngine`를 추가합니다.
 4. [프로젝트를 실행](https://github.com/Hanul/UPPERCASE/blob/master/DOC/GUIDE/CREATE_PROJECT.md#프로젝트-실행)하면 자동으로 SkyEngine을 다운로드하고 설치한 후 실행합니다.
 
+### Stand-alone 모드
+UPPERCASE 설치 과정 없이, SkyEngine을 다운로드 받아 웹 페이지에 JavaScript 라이브러리 형태로 사용하고 싶을 경우
+1. [UPPERCASE-CORE의 `BROWSER.MIN.js`파일](https://github.com/Hanul/UPPERCASE/blob/master/UPPERCASE-CORE/BROWSER.MIN.js)을 다운로드 받습니다.
+2. [UPPERCASE-BOOT의 `BASE_STYLE.MIN.css`파일](https://github.com/Hanul/UPPERCASE/blob/master/UPPERCASE-BOOT/R/BASE_STYLE.MIN.css)을 다운로드 받습니다.
+3. `__PACK` 폴더에 패키징 된 `SkyEngine` 폴더를 복사합니다.
+4. 아래와 같이 웹 페이지에 포함하여 사용합니다.
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+		<title>Sample</title>
+		<link rel="stylesheet" type="text/css" href="UPPERCASE-BOOT/BASE_STYLE.MIN.css" />
+	</head>
+	<body>
+	    <script src="UPPERCASE-CORE/BROWSER.MIN.js"></script>
+	    <script src="SkyEngine/BROWSER.js"></script>
+	</body>
+</html>
+```
+Stand-alone 모드에서는 UPPERCASE의 서버 관련 기술들을 사용할 수 없습니다.
+
 ## 필요한 사전 지식
 - [UPPERCASE를 사용하기 위해 필요한 사전 지식](https://github.com/Hanul/UPPERCASE/blob/master/DOC/GUIDE.md#필요한-사전-지식)
 - [UPPERCASE](http://uppercase.io)의 전반적인 인해
