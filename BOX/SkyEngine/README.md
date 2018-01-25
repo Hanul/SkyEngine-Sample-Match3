@@ -51,10 +51,6 @@ UPPERCASE 설치 과정 없이, SkyEngine을 다운로드 받아 웹 페이지�
 ```
 Stand-alone 모드에서는 UPPERCASE의 서버 관련 기술들을 사용할 수 없습니다.
 
-## 필요한 사전 지식
-- [UPPERCASE를 사용하기 위해 필요한 사전 지식](https://github.com/Hanul/UPPERCASE/blob/master/DOC/GUIDE.md#필요한-사전-지식)
-- [UPPERCASE](http://uppercase.io)의 전반적인 인해
-
 ## 구성 요소
 SkyEngine은 다음과 같은 것들로 구성되어 있습니다.
 
@@ -89,7 +85,12 @@ SkyEngine의 모든 구성요소는 노드를 확장합니다.
 * [파티클 시스템 노드](DOC/Node/ParticleSystem.md#파티클-시스템-노드)
 * [일회성 파티클 시스템 노드](DOC/Node/ParticleSystem.md#일회성-파티클-시스템-노드)
 
+## UPPERCASE의 기능 중 게임에서 사용할 만한 것들
+* [사운드 재생](https://github.com/Hanul/UPPERCASE/blob/master/DOC/GUIDE/UPPERCASE-CORE-BROWSER.md#sound)
+* [HTTP 요청 기능](https://github.com/Hanul/UPPERCASE/blob/master/DOC/GUIDE/UPPERCASE-CORE-BROWSER.md#http-%EC%9A%94%EC%B2%AD-%EA%B8%B0%EB%8A%A5)
+
 ## 기타 문서
+* [자주 묻는 질문](DOC/FAQ.md)
 * [튜토리얼](DOC/Tutorial.md)
 * [UI 개발](DOC/UI.md)
 * [API 문서](API/README.md)

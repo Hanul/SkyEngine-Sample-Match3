@@ -57,47 +57,61 @@ Match3.Game = CLASS({
 		rootNode.append(tileMap = SkyEngine.TileMap({
 			x : -300,
 			y : -300,
-			tileKeySet : {
+			tileSet : {
 				1 : () => {
-					return SkyEngine.Image({
-						src : Match3.R('snake.png'),
-						scale : 0.3
+					return SkyEngine.Tile({
+						c : SkyEngine.Image({
+							src : Match3.R('snake.png'),
+							scale : 0.3
+						})
 					});
 				},
 				2 : () => {
-					return SkyEngine.Image({
-						src : Match3.R('giraffe.png'),
-						scale : 0.3
+					return SkyEngine.Tile({
+						c : SkyEngine.Image({
+							src : Match3.R('giraffe.png'),
+							scale : 0.3
+						})
 					});
 				},
 				3 : () => {
-					return SkyEngine.Image({
-						src : Match3.R('hippo.png'),
-						scale : 0.3
+					return SkyEngine.Tile({
+						c : SkyEngine.Image({
+							src : Match3.R('hippo.png'),
+							scale : 0.3
+						})
 					});
 				},
 				4 : () => {
-					return SkyEngine.Image({
-						src : Match3.R('monkey.png'),
-						scale : 0.3
+					return SkyEngine.Tile({
+						c : SkyEngine.Image({
+							src : Match3.R('monkey.png'),
+							scale : 0.3
+						})
 					});
 				},
 				5 : () => {
-					return SkyEngine.Image({
-						src : Match3.R('panda.png'),
-						scale : 0.3
+					return SkyEngine.Tile({
+						c : SkyEngine.Image({
+							src : Match3.R('panda.png'),
+							scale : 0.3
+						})
 					});
 				},
 				6 : () => {
-					return SkyEngine.Image({
-						src : Match3.R('penguin.png'),
-						scale : 0.3
+					return SkyEngine.Tile({
+						c : SkyEngine.Image({
+							src : Match3.R('penguin.png'),
+							scale : 0.3
+						})
 					});
 				},
 				7 : () => {
-					return SkyEngine.Image({
-						src : Match3.R('pig.png'),
-						scale : 0.3
+					return SkyEngine.Tile({
+						c : SkyEngine.Image({
+							src : Match3.R('pig.png'),
+							scale : 0.3
+						})
 					});
 				}
 			},
